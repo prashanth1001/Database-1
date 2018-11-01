@@ -1,3 +1,6 @@
+#this is a linked list program written in c language
+# this program also contains output at the end of the code.
+
 #include <stdio.h>
 #include <string.h>
 #include <stdlib.h>
