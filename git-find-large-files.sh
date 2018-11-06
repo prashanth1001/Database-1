@@ -23,7 +23,7 @@
 
 if [ -z "$1" ]; then
 <<<<<<< HEAD
-    MIN_SIZE_IN_KB=50
+    MIN_SIZE_IN_KB=8
 =======
     MIN_SIZE_IN_KB=qoo
 >>>>>>> 499477986f8922e7961f22100f458515b32ddfb3
