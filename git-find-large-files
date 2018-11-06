@@ -3,7 +3,11 @@
 # Print the largest files in a Git repository. The script must be called
 # from the root of the Git repository. You can pass a threshold to print
 # only files greater than a certain size (compressed size in Git database,
+<<<<<<< HEAD
 # default is 500kb).
+=======
+# default is 100kb).
+>>>>>>> 499477986f8922e7961f22100f458515b32ddfb3
 #
 # Files that have a large compressed size should usually be stored in
 # Git LFS [].
@@ -18,7 +22,11 @@
 #
 
 if [ -z "$1" ]; then
+<<<<<<< HEAD
     MIN_SIZE_IN_KB=50
+=======
+    MIN_SIZE_IN_KB=qoo
+>>>>>>> 499477986f8922e7961f22100f458515b32ddfb3
 else
     MIN_SIZE_IN_KB=$1
 fi
